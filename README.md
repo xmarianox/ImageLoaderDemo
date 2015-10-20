@@ -1,1 +1,33 @@
-# Implementación de las 3 libs de Image Loader Picasso, Glide y Fresco
+# Implementación de las 3 libs de :camera: Loader Picasso, Glide y Fresco
+
+
+## Picasso
+![Picasso Icon]()
+
+## Glide
+![Glide Icon](https://github.com/bumptech/glide/blob/master/static/glide_logo.png)
+
+## Fresco
+![Fresco Icon](http://frescolib.org/static/fresco-hero-logo.png)
+
+
+## Desarrollada por:
+
+- Mariano  [@xsincrueldadx](https://twitter.com/xsincrueldadx)
+
+
+## License
+
+    Copyright 2014 Subte.io
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
