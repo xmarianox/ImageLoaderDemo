@@ -1,8 +1,7 @@
-# Implementación de las 3 libs de :camera: Loader Picasso, Glide y Fresco
-
+# Implementación de las 3 libs de Image Loader
 
 ## Picasso
-![Picasso Icon]()
+![Glide Icon](https://github.com/square/picasso/blob/master/website/static/sample.png)
 
 ## Glide
 ![Glide Icon](https://github.com/bumptech/glide/blob/master/static/glide_logo.png)
