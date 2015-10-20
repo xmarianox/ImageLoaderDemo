@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/imgPicasso" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/imagePicasso"
+        android:backgroundTint="@color/placeHolder"
+        android:background="@color/placeHolder"
+        android:contentDescription="@string/imgPicasso"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/imgGlide" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/imageGlide"
+        android:backgroundTint="@color/placeHolder"
+        android:background="@color/placeHolder"
+        android:contentDescription="@string/imgPicasso"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageFresco"
+        android:backgroundTint="@color/colorAccent"
+        android:contentDescription="@string/imgFresco"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>-->
+
+</LinearLayout>

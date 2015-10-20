@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImageLoaderDemo</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="imgPicasso">Imagen cargada con Picasso</string>
+    <string name="imgGlide">Imagen cargada con Glide</string>
+    <string name="imgFresco">Imagen cargada con Fresco</string>
+</resources>
