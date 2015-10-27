@@ -114,6 +114,11 @@ If you are building with Gradle, simply add the following line to the `dependenc
 compile 'com.facebook.fresco:fresco:0.8.0+'
 ```
 
+## Solucionar errores de compilación de Fresco
+```shel
+rm -fr $HOME/.gradle/caches
+```
+Esto fuerza a Gradle a descargar todas las dependencias nuevamente.
 
 ## Desarrollada por:
 
