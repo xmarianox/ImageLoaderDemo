@@ -17,6 +17,7 @@
         android:layout_marginBottom="8dp"
         android:text="@string/imgPicasso" />
 
+    <!-- PICASSO: ImageView -->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="230dp"
@@ -32,13 +33,14 @@
         android:layout_marginBottom="8dp"
         android:text="@string/imgGlide" />
 
+    <!-- GLIDE: ImageView -->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="230dp"
         android:id="@+id/imageGlide"
         android:backgroundTint="@color/placeHolder"
         android:background="@color/placeHolder"
-        android:contentDescription="@string/imgPicasso"
+        android:contentDescription="@string/imgGlide"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
     <TextView
@@ -47,14 +49,12 @@
         android:layout_marginBottom="8dp"
         android:text="@string/imgFresco" />
 
-    <!-- FRESCO IMAGEVIEW COMPONENT -->
+    <!-- FRESCO: SimpleDraweeView  -->
     <com.facebook.drawee.view.SimpleDraweeView
         android:layout_width="match_parent"
         android:layout_height="230dp"
         android:id="@+id/imageFresco"
-        fresco:placeholderImage="@drawable/placeholder"
-        android:backgroundTint="@color/placeHolder"
-        android:background="@color/placeHolder"
+        fresco:placeholderImage="@color/placeHolder"
         android:contentDescription="@string/imgFresco"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 

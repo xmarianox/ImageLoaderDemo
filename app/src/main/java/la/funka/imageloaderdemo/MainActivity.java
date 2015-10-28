@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
     private String IMAGE_URL = "https://cdn-images-1.medium.com/max/2000/1*OcwUXOIUGgTF-NV7Ux9PCQ.jpeg";
     private String GIF_URL = "http://www.catgifpage.com/gifs/247.gif";
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,17 +36,12 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
-
         // GET Views
         imageViewPicasso = (ImageView) findViewById(R.id.imagePicasso);
         imageViewGlide   = (ImageView) findViewById(R.id.imageGlide);
         imageViewFresco  = (SimpleDraweeView) findViewById(R.id.imageFresco);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-
-        //
-        //Fresco
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
